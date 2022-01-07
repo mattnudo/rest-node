@@ -1,0 +1,13 @@
+{
+  "name": "re st_node",
+  "version": "1.0.0",
+  "description": "Containerized Node.js REST service",
+  "author": "Matt Nudo <matt.nudo@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
