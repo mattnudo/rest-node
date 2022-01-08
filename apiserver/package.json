@@ -1,13 +1,20 @@
 {
-  "name": "re st_node",
-  "version": "1.0.0",
-  "description": "Containerized Node.js REST service",
-  "author": "Matt Nudo <matt.nudo@gmail.com>",
-  "main": "server.js",
+  "name": "apiserver",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "body-parser": "^1.19.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1"
   }
 }
